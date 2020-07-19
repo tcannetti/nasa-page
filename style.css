@@ -1,9 +1,74 @@
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  width: 850px;
+  margin: 0 auto;
 }
-div.main-container{
-  height: 100%;
-  background-color: rgba(250, 189, 119, 0.582);
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/*This is for the space image and font within*/
+header {
+  background-image: url(lu-space.jpg);
+  background-size: cover;
+  width: 850px;
+  height: 450px;
+  background-color: rgb(9, 6, 41);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  color: whitesmoke;
+  font-size: 65pt;
+  font-family: copperplate;
+}
+
+/*This will contain all the CONTACT/OFFICE INFO columns*/
+article {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: 324px;
+margin: 20px 0px;
+font-family: Tahoma, Geneva, sans-serif;
+color: rgb(37, 38, 39);
+background-color: rgba(158, 157, 157, 0.493);
+}
+
+section {
+width: 270px;
+padding: 1em;
+justify-content: flex-start;
+}
+
+h1 {
+justify-content: space-around;
+color: black;
+}
+
+ul {
+color: rgb(88, 87, 87)
+}
+
+/* THIS IS THE TEXT INPUT & BUTTON STYLE*/
+p {
+color: rgb(88, 87, 87);
+}
+
+input {
+margin-top: -5;
+}
+
+label {
+  color: rgb(88, 87, 87);
+}
+
+button {
+color: whitesmoke;
+font-size: 14px;
+background-color: slategrey;
+margin-top: 12px;
 }
